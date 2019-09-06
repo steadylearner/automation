@@ -22,6 +22,7 @@ cp = cmd.run(f"git commit -m '{message}'", check=True, shell=True)
 # 4.
 
 # $git remote set-url --add origin git@github.com:steadylearner/automation.git
+# $git remote show origin 
 cp = cmd.run("git push -u origin master -f", check=True, shell=True)
 # print(cp)
 
