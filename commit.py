@@ -21,9 +21,10 @@ cp = cmd.run(f"git commit -m '{message}'", check=True, shell=True)
 
 # 4.
 
-# $ Search how to skip login process for github push
-# 
-# $ https://github.com/settings/keys 
+# Search how to skip login process for github push
+# $git remote set-url origin git@github.com:steadylearner/automation.git 
+# https://help.github.com/en/articles/connecting-to-github-with-ssh
+# https://github.com/settings/keys 
 cp = cmd.run("git push -u origin master -f", check=True, shell=True)
 # print(cp)
 
