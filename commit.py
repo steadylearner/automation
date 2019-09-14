@@ -1,5 +1,5 @@
 import subprocess as cmd
-from termcolor import colored
+# from termcolor import colored
 
 # 1.
 
